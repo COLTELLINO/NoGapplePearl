@@ -1,0 +1,51 @@
+### IDE ###
+# IntelliJ IDEA
+.idea
+.iml
+.ipr
+.iws
+out
+
+# Eclipse
+.settings
+.project
+.classpath
+bin
+
+# VS Code
+.vscode
+
+
+### Build ###
+# Ignora i file compilati e i JAR generati
+target
+build
+libs
+.jar
+!il-tuo-plugin.jar   # Sostituisci con il nome del tuo plugin, se vuoi includerlo
+
+
+### Configurazioni locali ###
+config.yml
+plugin.yml   # Se vuoi sovrascriverlo localmente, ma di solito si versiona
+config
+logs
+debug
+
+
+### Sistemi operativi ###
+# File temporanei
+.tmp
+.bak
+.swp
+~
+
+
+### Altro ###
+# File di database locale (se usi SQLite)
+.db
+.db-journal
+
+# Cartelle di runtime
+cache
+data

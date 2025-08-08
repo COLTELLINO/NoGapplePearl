@@ -1,0 +1,7 @@
+name: NoGapplePearl
+main: me.copilot.nogapplepearl.NoGapplePearl
+version: 1.0
+api-version: 1.8.8
+author: GitHub Copilot
+description: Blocca l'uso di golden apple, enchanted golden apple, pozioni non consentite e ender pearl nei mondi specificati.
+commands: {}
